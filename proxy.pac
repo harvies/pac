@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".youtube.com") 
         || dnsDomainIs(host, ".wikipedia.org") 
         || dnsDomainIs(host, ".twitter.org") 
-        || dnsDomainIs(host, ".wikipedia.org") 
+        || dnsDomainIs(host, "raw.githubusercontent.com") 
        ) {
         return "SOCKS5 127.0.0.1:1080";
     }
