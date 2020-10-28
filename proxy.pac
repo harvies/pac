@@ -4,6 +4,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".wikipedia.org") 
         || dnsDomainIs(host, ".twitter.org") 
         || dnsDomainIs(host, "raw.githubusercontent.com") 
+        || dnsDomainIs(host, "paofu.cloud") 
        ) {
         return "SOCKS5 127.0.0.1:1080";
     }
