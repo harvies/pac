@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".wikipedia.org") 
         || dnsDomainIs(host, ".twitter.org") 
         || dnsDomainIs(host, ".githubusercontent.com") 
-        || dnsDomainIs(host, "paofu.cloud") 
+        || dnsDomainIs(host, ".paofu.cloud") 
         || dnsDomainIs(host, ".github.com") 
         || dnsDomainIs(host, ".github.io") 
         || dnsDomainIs(host, ".v2ex.com") 
