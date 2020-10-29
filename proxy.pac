@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".github.com") 
         || dnsDomainIs(host, ".github.io") 
         || dnsDomainIs(host, ".v2ex.com") 
+        || dnsDomainIs(host, ".evernote.com") 
        ) {
         return "SOCKS5 127.0.0.1:1080";
     }
