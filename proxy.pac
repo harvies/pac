@@ -11,6 +11,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".v2ex.com") 
         || dnsDomainIs(host, ".evernote.com") 
         || dnsDomainIs(host, ".jianguoyun.com")
+        || dnsDomainIs(host, ".inoreader.com")
        ) {
         return "SOCKS5 127.0.0.1:1080";
     }
