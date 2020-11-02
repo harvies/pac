@@ -1,5 +1,8 @@
 function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, ".google.com") 
+        || dnsDomainIs(host, ".content.googleapis.com") 
+        || dnsDomainIs(host, ".googleusercontent.com") 
+        || dnsDomainIs(host, ".ggpht.com") 
         || dnsDomainIs(host, ".youtube.com") 
         || dnsDomainIs(host, ".wikipedia.org") 
         || dnsDomainIs(host, ".wikimedia.org") 
