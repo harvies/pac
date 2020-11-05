@@ -1,4 +1,8 @@
 function FindProxyForURL(url, host) {
+     if (isInNet(host, "198.168.0.0", "255.255.0.0"))
+     {
+         return "DIRECT";
+     }
     if (dnsDomainIs(host, ".google.com") 
         || dnsDomainIs(host, ".content.googleapis.com") 
         || dnsDomainIs(host, ".googleusercontent.com") 
