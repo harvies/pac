@@ -23,7 +23,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".javdb.com")
         || dnsDomainIs(host, ".forestry.io")
        ) {
-        return "SOCKS5 127.0.0.1:1080";
+        return "SOCKS5 192.168.7.77:7891";
     }
     return "DIRECT";
 }
