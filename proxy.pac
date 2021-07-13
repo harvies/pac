@@ -24,7 +24,7 @@ function FindProxyForURL(url, host) {
         || dnsDomainIs(host, ".forestry.io")
        ) {
 
-        return "SOCKS5 192.168.7.77:7891";
+        return "SOCKS5 router.kikera.top:7891";
     }
     return "DIRECT";
 }
